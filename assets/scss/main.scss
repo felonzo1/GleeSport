@@ -20,21 +20,12 @@
 }
 
 // Header Section
-.check-news {
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/player/player4.jpg);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: #fff;
-    padding: 1rem;
-    height: 70vh;
+.carousel-item img {
+   opacity: .8;
+   color: #fff;
 }
 
-.check-news__button, .check-news__text {
-    padding: .5rem 1rem;
+.check-news p, .check-news {
     font-family: inherit;
     font-weight: 200;
     font-size: .8rem;
