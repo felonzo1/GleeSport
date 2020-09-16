@@ -1,0 +1,191 @@
+*, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+// Navegation Menu
+.navbar-nav, .nav-item, .nav-link {
+    font-size: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+// Logo design
+ .brand-logo  {
+    text-decoration: none !important;
+    color:#fff;
+    padding: 1rem;
+   font-size: 1.2rem;
+   text-transform: uppercase;
+
+}
+
+// Header Section
+.check-news {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/player/player4.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    padding: 1rem;
+    height: 70vh;
+}
+
+.check-news__button, .check-news__text {
+    padding: .5rem 1rem;
+    font-family: inherit;
+    font-weight: 200;
+    font-size: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+/* // header Section End Here*/
+
+// Table Section 
+.table-title h2{
+    font-size: 1rem !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table {
+    font-size: .7rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.more-table {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-responsive {
+    height: 100%;
+    width: 100% !important;
+}
+
+/* // Table Section End Here*/
+
+
+// Global Styling
+.card {
+   border-radius: 2px;
+   box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3);
+   border: 1px solid  #183a55;
+}
+
+
+//Audio Section
+#img-coach {
+    height: 500px;
+}
+
+.audio-post {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.audio-logo {
+    margin-right: 1rem;
+    flex: 0 0 15%;
+    border-radius: 50%;
+
+}
+
+.audio-logo #img-responsive {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem
+}
+
+.audio-text .audio-btn{
+    border-radius: 100em;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.audio-text p {
+    font-size: .8rem;
+}
+
+.card-container {
+    position: relative;
+}
+
+/* // Audio Section End Here*/
+
+
+// Video Section
+.video-icon-left, .video-icon-right {
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+
+.video-icon-left {
+    top: 50%;
+    left: 5%;
+    color: #fff;
+}
+
+.video-icon-right {
+    bottom: 45%;
+    left: 5%;
+    color: #fff;
+}
+
+.video-icon-left i, .video-icon-right i {
+    padding: .5rem;
+    border: 2px solid #fff;
+    border-radius: 100em;
+    cursor: pointer;
+}
+
+// Footer Section
+
+.link {
+    text-decoration: none !important;
+    color:#fff;
+    padding: 1rem;
+   font-size: 2rem;
+   text-transform: uppercase;
+
+}
+
+.social-media i {
+    border-radius: 100em;
+    padding: .3rem;
+    font-size: 1rem;
+    margin-right: .2rem;
+}
+
+ .footer-info p, .social-media h5 {
+    font-size: .8rem;
+    color: #c2c2c2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-nav {
+    list-style: none;
+    color: #c2c2c2;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.footer-nav li:hover {
+    color: #fff !important;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #c2c2c2;
+}
+
+/* // Footer Section End Here*/
