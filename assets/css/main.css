@@ -55,7 +55,8 @@
   height: 120px;
   background-color: #fff;
   border-radius: 5px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  width: 100%; }
 
 .audio-logo {
   margin-right: 1rem;
